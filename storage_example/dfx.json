@@ -1,0 +1,24 @@
+{
+  "canisters": {
+    "example": {
+      "build": "cargo build --target wasm32-unknown-unknown --package  example --release",
+      "candid": "src/example/src/lib.did",
+      "wasm": "target/wasm32-unknown-unknown/release/example.wasm",
+      "type": "custom"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.1",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8001",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
