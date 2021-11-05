@@ -1,3 +1,10 @@
+type Result =
+variant {
+    Ok : null;
+    Err : text;
+};
+
 service:{
-    "mint":(nat) -> ();
+    "mint":() -> ();
+    "transfer":() -> ();
 }

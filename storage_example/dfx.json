@@ -13,10 +13,10 @@
       "packtool": ""
     }
   },
-  "dfx": "0.8.1",
+  "dfx": "0.8.3",
   "networks": {
     "local": {
-      "bind": "127.0.0.1:8001",
+      "bind": "127.0.0.1:8000",
       "type": "ephemeral"
     }
   },
